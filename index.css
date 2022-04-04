@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-principal {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+
+ul {
+    background-image: url(./patinhas.png);
+    background-repeat: repeat-x;
+    background-position: 80px -220px;
+    top: -200px;
+    background-color: black;
+    font-size: 30px;
+    height: 90%;
+    width: 95;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+
+.amarelo {
+    position: relative;
+    color: yellow;
+    right: 660PX;
+    top: 40px;
+}
+
+.branco {
+    color: white;
+    position: relative;
+    right: 685px;
+    top: 40px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+a {
+    right: 100px;
+    position: relative;
+    top: 65px;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 100px;
+    }
+
+    a {
+        border-radius: 100px;
+        border-bottom: 10px;
+        background-color: yellow;
+        position: relative;
+        top: -5px;
+        left: 1px;
+
+    }
+}
+
+h1:hover {
+    font-size: 30px;
+}
+
+a:hover {
+    color: black;
+    background-color: #fff222;
+}
+
+.amarelo:hover {
+    font-size: large;
+}
